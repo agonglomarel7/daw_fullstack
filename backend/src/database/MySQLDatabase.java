@@ -10,11 +10,11 @@ public class MySQLDatabase {
     private final String databaseName;
     private final String user;
     private final String password;
-
     private Connection connection;
-
     private static boolean initialized = false;
 
+
+    
     public MySQLDatabase(String host, int port, String databaseName, String user, String password) throws SQLException {
         this.host = host;
         this.port = port;
